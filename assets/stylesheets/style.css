@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<title>Welcome to CodeIgniter</title>
-
-	<style type="text/css">
-
-	::selection{ background-color: #E13300; color: white; }
+::selection{ background-color: #E13300; color: white; }
 	::moz-selection{ background-color: #E13300; color: white; }
 	::webkit-selection{ background-color: #E13300; color: white; }
 
@@ -62,24 +54,3 @@
 		border: 1px solid #D0D0D0;
 		-webkit-box-shadow: 0 0 8px #D0D0D0;
 	}
-	</style>
-</head>
-<body>
-
-<div id="container">
-	<h1>Welcome to GetYourVenue.com!</h1>
-
-	<div id="body">
-		
-
-		
-		<code>We are coming very soon with beta version...!!!</code>
-
-		
-	</div>
-
-	<p class="footer">Copyright &copy;2011 Get Your Venue. All Rights Reserved</p>
-</div>
-
-</body>
-</html>
