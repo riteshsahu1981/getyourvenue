@@ -18,7 +18,10 @@
  * NOTE: If you change these, also change the error_reporting() code below
  *
  */
-	define('ENVIRONMENT', 'development');
+defined('ENVIRONMENT')
+    || define('ENVIRONMENT', (getenv('ENVIRONMENT') ? getenv('ENVIRONMENT') : 'production'));
+
+	//define('ENVIRONMENT', "development");
 /*
  *---------------------------------------------------------------
  * ERROR REPORTING
@@ -27,7 +30,6 @@
  * Different environments will require different levels of error reporting.
  * By default development will show errors but testing and live will hide them.
  */
-
 if (defined('ENVIRONMENT'))
 {
 	switch (ENVIRONMENT)
@@ -37,6 +39,7 @@ if (defined('ENVIRONMENT'))
 		break;
 	
 		case 'testing':
+		case 'beta':
 		case 'production':
 			error_reporting(0);
 		break;
