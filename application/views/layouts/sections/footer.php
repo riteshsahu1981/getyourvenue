@@ -4,23 +4,12 @@
       <!-- popular choice -->
       <?php $this->load->view('misc/popular-choice'); ?>
       <!-- popular choice -->
-      <div class="allied-services">
-        <h3> Allied Services Allied Services</h3>
-        <ul>
-          <li><a href="#">Music Band</a></li>
-          <li><a href="#">Decor</a></li>
-          <li><a href="#">Groom Wear</a></li>
-          <li><a href="#">Caterer</a></li>
-          <li><a href="#">Transportation</a></li>
-          <li><a href="#">Ghoriwala &amp; Baggi</a></li>
-          <li><a href="#">Music Band</a></li>
-          <li><a href="#">Decor</a></li>
-          <li><a href="#">Groom Wear</a></li>
-          <li><a href="#">Caterer</a></li>
-          <li><a href="#">Transportation</a></li>
-          <li><a href="#">Ghoriwala &amp; Baggi</a></li>
-        </ul>
-      </div>
+      
+      <!-- allied services -->
+      <?php $this->load->view('misc/allied-services'); ?>
+      <!-- allied services -->
+      
+      
       <div class="nonwedding">
         <h3>Non Wedding Functions</h3>
         <ul>
