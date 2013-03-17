@@ -9,8 +9,10 @@ class Pages extends CI_Controller {
 			// Whoops, we don't have a page for that!
 			show_404();
 		}
-		
-		$data['title'] = ucfirst($page); // Capitalize the first letter
+		if($page=='home')
+			$data['title'] = ""; 
+		else
+			$data['title'] = ucfirst($page); // Capitalize the first letter
 		
 		$data['action_content']=$this->load->view('pages/'.$page, $data,true);
 		

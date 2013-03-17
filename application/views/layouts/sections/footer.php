@@ -1,18 +1,9 @@
 <div id="footerwaper">
   <div class="footer-main">
     <div class="footerlinks">
-      <div class="popular-choice">
-        <h3>Popular Choice</h3>
-        <ul>
-          <li><a href="#">Chhattarpur &amp; MG Road</a></li>
-          <li><a href="#">GT Karnal Road</a></li>
-          <li><a href="#">Pushpanjali &amp; NH-8</a></li>
-          <li><a href="#">Vaishali Extn. &amp; Vasundhara</a></li>
-          <li><a href="#">Rama Road &amp; Kirti Nagar</a></li>
-          <li><a href="#">Mundka, 5 Star Banquets,</a></li>
-          <li><a href="#">Destination Wedding, Others</a></li>
-        </ul>
-      </div>
+      <!-- popular choice -->
+      <?php $this->load->view('misc/popular-choice'); ?>
+      <!-- popular choice -->
       <div class="allied-services">
         <h3> Allied Services Allied Services</h3>
         <ul>

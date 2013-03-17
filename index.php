@@ -19,7 +19,7 @@
  *
  */
 defined('ENVIRONMENT')
-    || define('ENVIRONMENT', (getenv('ENVIRONMENT') ? getenv('ENVIRONMENT') : 'production'));
+    || define('ENVIRONMENT', (getenv('ENVIRONMENT') ? getenv('ENVIRONMENT') : 'beta'));
 
 	//define('ENVIRONMENT', "development");
 /*
